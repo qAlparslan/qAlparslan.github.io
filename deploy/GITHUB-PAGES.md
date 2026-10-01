@@ -15,7 +15,9 @@ Repo → **Settings** → **Pages**
 
 - **Build and deployment** → Source: **GitHub Actions** (branch/deploy değil)
 
-**Boş sayfa görürsen:** Source hâlâ “Deploy from a branch” ise site ham `index.html` sunar (`/src/main.tsx` yüklenemez). Mutlaka **GitHub Actions** seç; sonra Actions sekmesinden workflow’u yeniden çalıştır.
+**Boş sayfa görürsen:** Source hâlâ “Deploy from a branch” ise site ham `index.html` sunar (`/src/main.tsx` yüklenemez). Mutlaka **GitHub Actions** seç.
+
+**“Site not found” / workflow çalıştı ama site yok:** Jekyll / Static HTML önerilerine **Configure** basma. **Actions** → **Deploy to GitHub Pages** yeşil olmalı. **Settings → Environments → github-pages** içinde onay bekleyen deployment var mı bak. 2–5 dk sonra Ctrl+F5.
 
 `main`/`master`’a her push’ta `.github/workflows/deploy-pages.yml` build alır ve yayınlar.
 
