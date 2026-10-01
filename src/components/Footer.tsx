@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className="site-footer">
       <p>
-        © {year} {site.name}. Statik portfolyo — domain bağlamaya hazır.
+        © {year} {site.name}.
       </p>
     </footer>
   )
