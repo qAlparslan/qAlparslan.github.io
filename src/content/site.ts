@@ -7,7 +7,9 @@ export const site = {
   email: 'alparslansen5757@gmail.com',
   availability: 'Yalova Üniversitesi 2. sınıf',
   about: [
-    'Yalova Üniversitesi Bilgisayar Programcılığı 2. sınıf öğrencisi olarak eğitimime devam ediyorum.'' Yazılım geliştirme süreçlerinde teoride kalmayıp; JavaScript, C#, React, Node.js ve MySQL gibi güncel teknolojileri yakından takip ediyor ve bunları canlıya alınmış full-stack projelerle hızla pratiğe döküyorum.'' Ödeme, kargo, stok ve uyum gibi gerçek operasyonel ihtiyaçlara odaklanan, uçtan uca ürünler tasarlamayı ve geliştirmeyi seviyorum. Analitik düşünen, takım çalışmasına yatkın ve yeni teknolojileri hızlı öğrenen bir geliştirici olarak projeler üretiyorum.',
+    'Yalova Üniversitesi Bilgisayar Programcılığı 2. sınıf öğrencisi olarak eğitimime devam ediyorum.',
+    ' Yazılım geliştirme süreçlerinde teoride kalmayıp; JavaScript, C#, React, Node.js ve MySQL gibi güncel teknolojileri yakından takip ediyor ve bunları canlıya alınmış full-stack projelerle hızla pratiğe döküyorum.',
+    ' Ödeme, kargo, stok ve uyum gibi gerçek operasyonel ihtiyaçlara odaklanan, uçtan uca ürünler tasarlamayı ve geliştirmeyi seviyorum. Analitik düşünen, takım çalışmasına yatkın ve yeni teknolojileri hızlı öğrenen bir geliştirici olarak projeler üretiyorum.',
   ],
   nav: [
     { id: 'about', label: 'Hakkımda' },
