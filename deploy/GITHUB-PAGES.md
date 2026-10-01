@@ -15,6 +15,8 @@ Repo → **Settings** → **Pages**
 
 - **Build and deployment** → Source: **GitHub Actions** (branch/deploy değil)
 
+**Boş sayfa görürsen:** Source hâlâ “Deploy from a branch” ise site ham `index.html` sunar (`/src/main.tsx` yüklenemez). Mutlaka **GitHub Actions** seç; sonra Actions sekmesinden workflow’u yeniden çalıştır.
+
 `main`/`master`’a her push’ta `.github/workflows/deploy-pages.yml` build alır ve yayınlar.
 
 ## 3. Site adresi

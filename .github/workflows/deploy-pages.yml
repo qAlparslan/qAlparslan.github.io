@@ -29,6 +29,15 @@ jobs:
       - run: npm run build
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_ACTIONS: true
+
+      - name: Verify production build output
+        run: |
+          grep -q '/assets/' dist/index.html
+          if grep -q 'src/main.tsx' dist/index.html; then
+            echo "dist/index.html still points at dev entry — build misconfigured"
+            exit 1
+          fi
 
       - uses: actions/upload-pages-artifact@v3
         with:

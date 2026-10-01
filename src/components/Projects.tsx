@@ -23,7 +23,7 @@ export function Projects() {
             </div>
             <p>{project.description}</p>
             <div className="project-links">
-              {project.demoUrl && project.demoUrl !== 'https://' && (
+              {project.demoUrl && (
                 <a href={project.demoUrl} target="_blank" rel="noreferrer">
                   Canlı demo
                 </a>
