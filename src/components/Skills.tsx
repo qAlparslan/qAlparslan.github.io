@@ -5,7 +5,7 @@ export function Skills() {
     <section id="skills" className="section">
       <div className="section-head">
         <h2>Yetenekler</h2>
-        <p className="section-kicker">Günlük kullandığım stack</p>
+        <p className="section-kicker"></p>
       </div>
       <div className="skills-grid">
         {site.skillGroups.map((group) => (
