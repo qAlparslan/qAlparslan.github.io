@@ -11,6 +11,6 @@ function pagesBase(): string {
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: pagesBase(),
+  base: process.env.GITHUB_ACTIONS === 'true' ? pagesBase() : '/',
   plugins: [react()],
 })

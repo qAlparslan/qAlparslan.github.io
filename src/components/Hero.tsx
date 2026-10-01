@@ -5,7 +5,7 @@ export function Hero() {
     <section className="hero" aria-labelledby="hero-title">
       <p className="eyebrow">{site.location} · {site.availability}</p>
       <h1 id="hero-title">
-        {site.name}
+        <span className="hero-name">{site.name}</span>
         <span className="hero-sub">{site.title}</span>
       </h1>
       <p className="lead">{site.tagline}</p>

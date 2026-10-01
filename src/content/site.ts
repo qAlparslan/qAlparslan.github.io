@@ -1,13 +1,15 @@
 export const site = {
-  name: 'Adın Soyadın',
-  title: 'Yazılım Geliştirici',
-  tagline: 'Web ve mobil için sade, hızlı ve kullanıcı odaklı ürünler tasarlıyorum.',
-  location: 'Türkiye',
-  email: 'hello@ornek.com',
-  availability: 'Freelance & tam zamanlı projelere açığım',
+  name: 'Alparslan Tuna Şen',
+  title: 'Bilgisayar Programcılığı Öğrencisi · Full-Stack Geliştirici',
+  tagline:
+    'Sıfırdan geliştirip yayına aldığım uçtan uca web projeleriyle yazılım yaşam döngüsünü pratik ediyorum; staj ile kurumsal deneyime geçmek istiyorum.',
+  location: 'Üsküdar, İstanbul',
+  email: 'alparslansen5757@gmail.com',
+  availability: 'Staj fırsatı arıyorum · Yalova Üniversitesi 2. sınıf',
   about: [
-    'Merhaba — vitrin amaçlı bu sitede üzerinde çalıştığım projeleri ve yetkinliklerimi paylaşıyorum. Kaynak kodu her projede zorunlu değil; odak noktam canlı demo ve ürün hikâyesi.',
-    'Frontend ağırlıklı çalışıyorum; performans, erişilebilirlik ve okunaklı arayüz benim için öncelik.',
+    'Yalova Üniversitesi Bilgisayar Programcılığı 2. sınıf öğrencisiyim. Maltepe Kayra MTAL Bilişim Teknolojileri mezunuyum; teorik eğitimi, canlıya alınmış full-stack projelerle birleştiriyorum.',
+    'Acıbadem Sağlık Grubu’nda Bilişim Sistemleri yardım masası stajında teknik destek ve operasyon süreçlerini deneyimledim. Takım çalışmasına yatkınım; analitik düşünüp yeni teknolojileri hızlı öğrenmeyi seviyorum.',
+    'Bu sitede vitrin olarak öne çıkardığım işler, gerçek kullanıcı ve operasyon ihtiyaçlarına göre tasarlanmış ürünler — ödeme, kargo, stok ve uyum (KVKK) gibi uçtan uca konulara odaklanıyorum.',
   ],
   nav: [
     { id: 'about', label: 'Hakkımda' },
@@ -16,48 +18,40 @@ export const site = {
     { id: 'contact', label: 'İletişim' },
   ],
   social: [
-    { label: 'GitHub', href: 'https://github.com/KULLANICI_ADIN' },
-    { label: 'LinkedIn', href: 'https://linkedin.com/in/KULLANICI_ADIN' },
+    { label: 'GitHub', href: 'https://github.com/qAlparslan' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/alparslan-%C5%9Fen-039062268/' },
   ],
   projects: [
     {
-      title: 'Proje Adı',
+      title: 'Asta Shop — E-Ticaret Platformu',
       description:
-        'Kısa açıklama: hangi problemi çözdüğün, kimler için yaptığın ve senin katkın.',
-      tags: ['React', 'TypeScript', 'API'],
-      demoUrl: 'https://',
-      repoUrl: undefined as string | undefined,
+        'Asta Ticaret için cilt bakımı ve kozmetik odaklı B2C e-ticaret: tek monorepoda React (Vite) vitrin, JWT korumalı admin paneli ve Express + MySQL API. PayTR iFrame ödemesi (sunucu webhook + HMAC), sipariş–stok yaşam döngüsü, kupon ve çoklu depo; MNG/DHL ile kargoya verme, ZPL etiket ve takip; Paraşüt taslak fatura, Nodemailer, KVKK rıza/yasal metin altyapısı, Recharts dashboard ve GitHub Actions CI. Üretimde astaticaret.com.',
+      tags: [
+        'React',
+        'Vite',
+        'Node.js',
+        'Express',
+        'MySQL',
+        'PayTR',
+        'Tailwind CSS',
+      ],
+      demoUrl: 'https://astaticaret.com',
+      repoUrl: 'https://github.com/qAlparslan/asta-shop',
       highlight: true,
-    },
-    {
-      title: 'İkinci Proje',
-      description: 'Vitrin repolarında olduğu gibi sadece demo linki de yeterli.',
-      tags: ['Vite', 'CSS'],
-      demoUrl: 'https://',
-      repoUrl: undefined,
-      highlight: false,
-    },
-    {
-      title: 'Üçüncü Proje',
-      description: 'Ekran görüntüsü veya Figma linki README yerine burada da kullanılabilir.',
-      tags: ['Mobile', 'UI'],
-      demoUrl: 'https://',
-      repoUrl: 'https://github.com/KULLANICI_ADIN/ornek-repo',
-      highlight: false,
     },
   ],
   skillGroups: [
     {
-      title: 'Frontend',
-      items: ['React', 'TypeScript', 'HTML/CSS', 'Vite'],
+      title: 'Web & Frontend',
+      items: ['JavaScript', 'React', 'HTML', 'CSS', 'Vite', 'Tailwind CSS'],
     },
     {
-      title: 'Araçlar',
-      items: ['Git', 'GitHub', 'Figma', 'VS Code / Cursor'],
+      title: 'Backend & Veri',
+      items: ['Node.js', 'Express', 'MySQL', 'REST API', 'JWT'],
     },
     {
-      title: 'Diğer',
-      items: ['REST API', 'Responsive tasarım', 'Temel SEO'],
+      title: 'Diller & Araçlar',
+      items: ['C#', 'Java', 'C++', 'Git', 'GitHub'],
     },
   ],
 } as const
