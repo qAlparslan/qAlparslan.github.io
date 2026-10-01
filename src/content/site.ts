@@ -5,7 +5,7 @@ export const site = {
     'Sıfırdan geliştirip yayına aldığım uçtan uca web projeleriyle yazılım yaşam döngüsünü pratik ediyorum; staj ile kurumsal deneyime geçmek istiyorum.',
   location: 'Üsküdar, İstanbul',
   email: 'alparslansen5757@gmail.com',
-  availability: 'Staj fırsatı arıyorum · Yalova Üniversitesi 2. sınıf',
+  availability: 'Yalova Üniversitesi 2. sınıf',
   about: [
     'Yalova Üniversitesi Bilgisayar Programcılığı 2. sınıf öğrencisiyim. Maltepe Kayra MTAL Bilişim Teknolojileri mezunuyum; teorik eğitimi, canlıya alınmış full-stack projelerle birleştiriyorum.',
     'Acıbadem Sağlık Grubu’nda Bilişim Sistemleri yardım masası stajında teknik destek ve operasyon süreçlerini deneyimledim. Takım çalışmasına yatkınım; analitik düşünüp yeni teknolojileri hızlı öğrenmeyi seviyorum.',
@@ -51,7 +51,7 @@ export const site = {
     },
     {
       title: 'Diller & Araçlar',
-      items: ['C#', 'Java', 'C++', 'Git', 'GitHub'],
+      items: ['C#', 'Java', 'C++', 'Python', 'Git', 'GitHub'],
     },
   ],
 } as const
