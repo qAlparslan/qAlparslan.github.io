@@ -17,7 +17,7 @@ export function Header() {
         </ul>
       </nav>
       <a className="nav-cta" href="#contact">
-        Konuşalım
+        İletişim
       </a>
     </header>
   )
