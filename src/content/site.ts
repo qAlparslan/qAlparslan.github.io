@@ -7,9 +7,7 @@ export const site = {
   email: 'alparslansen5757@gmail.com',
   availability: 'Yalova Üniversitesi 2. sınıf',
   about: [
-    'Yalova Üniversitesi Bilgisayar Programcılığı 2. sınıf öğrencisiyim. Maltepe Kayra MTAL Bilişim Teknolojileri mezunuyum; teorik eğitimi, canlıya alınmış full-stack projelerle birleştiriyorum.',
-    'Acıbadem Sağlık Grubu’nda Bilişim Sistemleri yardım masası stajında teknik destek ve operasyon süreçlerini deneyimledim. Takım çalışmasına yatkınım; analitik düşünüp yeni teknolojileri hızlı öğrenmeyi seviyorum.',
-    'Bu sitede vitrin olarak öne çıkardığım işler, gerçek kullanıcı ve operasyon ihtiyaçlarına göre tasarlanmış ürünler — ödeme, kargo, stok ve uyum (KVKK) gibi uçtan uca konulara odaklanıyorum.',
+    'Yalova Üniversitesi Bilgisayar Programcılığı 2. sınıf öğrencisi olarak eğitimime devam ediyorum. Yazılım geliştirme süreçlerinde teoride kalmayıp; JavaScript, C#, React, Node.js ve MySQL gibi güncel teknolojileri yakından takip ediyor ve bunları canlıya alınmış full-stack projelerle hızla pratiğe döküyorum. Ödeme, kargo, stok ve uyum gibi gerçek operasyonel ihtiyaçlara odaklanan, uçtan uca ürünler tasarlamayı ve geliştirmeyi seviyorum. Analitik düşünen, takım çalışmasına yatkın ve yeni teknolojileri hızlı öğrenen bir geliştirici olarak projeler üretiyorum.',
   ],
   nav: [
     { id: 'about', label: 'Hakkımda' },
