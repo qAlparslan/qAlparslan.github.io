@@ -5,7 +5,7 @@ export function Projects() {
     <section id="projects" className="section">
       <div className="section-head">
         <h2>Projeler</h2>
-        <p className="section-kicker">Vitrin — canlı demo öncelikli</p>
+        <p className="section-kicker">Vitrin</p>
       </div>
       <ul className="project-list">
         {site.projects.map((project) => (
